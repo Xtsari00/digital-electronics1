@@ -1,2 +1,3 @@
 # digital-electronics1
-HELLO WORLD!!!
+## Part 1
+### Part 2
