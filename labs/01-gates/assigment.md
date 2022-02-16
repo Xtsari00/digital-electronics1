@@ -40,4 +40,3 @@ end architecture dataflow;
 
    [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
 
-ffgdg
