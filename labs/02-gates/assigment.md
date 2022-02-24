@@ -16,7 +16,7 @@
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-  IMG_4159.HEIC![image](https://user-images.githubusercontent.com/99403641/155403283-59ab138c-be41-4e9c-a476-4a9670413975.png)
+  ![image](https://user-images.githubusercontent.com/99403641/155403283-59ab138c-be41-4e9c-a476-4a9670413975.png)
 
 
 ### 4-bit comparator
@@ -37,8 +37,8 @@
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
-                (s_B_equals_A  = '1') and
-                (s_B_less_A    = '0'))
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
         -- If false, then report an error
         report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
 
@@ -50,8 +50,9 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/99403641/155475242-789dbb42-e63d-426c-9ab4-42e94e80f0f4.png)
+
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   https://www.edaplayground.com/x/dfu6
