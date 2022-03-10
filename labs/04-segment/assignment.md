@@ -90,22 +90,22 @@
 1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 ```vhdl
  --------------------------------------------------------------------
- LED(4) <= `0` when (s_hex = 0) else '1';
+ LED(4) <= `1` when (s_hex = 0) else '0';
 
- LED(5) <= '0' when (s_hex > 1001) else '1';
+ LED(5) <= '1' when (s_hex > 1001) else '0';
  
- LED(6) <= '0' when (s_hex(0) = 0) else '1';
+ LED(6) <= '1' when (s_hex(0) = 0) else '0';
 
  --LED(7)
      case s_hex is
          when "0001" =>
-            	LED(7) <= '0'
-         when "0010" =>
-            	LED(7) <= '0'
-         when "0100" =>
-            	LED(7) <= '0'
-         when "1000" =>
-            	LED(7) <= '0'
-         when others =>
             	LED(7) <= '1'
+         when "0010" =>
+            	LED(7) <= '1'
+         when "0100" =>
+            	LED(7) <= '1'
+         when "1000" =>
+            	LED(7) <= '1'
+         when others =>
+            	LED(7) <= '0'
      end case;
