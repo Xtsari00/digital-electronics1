@@ -1,4 +1,4 @@
-# Lab 6: YOUR_FIRSTNAME LASTNAME
+# Lab 6: Bohdan Tsariuchenko 
 
 ### Bidirectional counter
 
@@ -45,5 +45,7 @@ Enable
 
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   
+  IMG_4250.HEIC![image](https://user-images.githubusercontent.com/99403641/159764601-e14a2d69-3428-4862-8eb5-af9aa49030d9.png)
+
 
