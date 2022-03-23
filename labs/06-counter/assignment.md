@@ -32,7 +32,14 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+Reset 
+![image](https://user-images.githubusercontent.com/99403641/159755616-c23a3943-6535-4c2f-979d-140ff3fea094.png)
+
+Counting down 
+![image](https://user-images.githubusercontent.com/99403641/159755664-5e4c4fbe-062b-4015-9c0e-351ce5fc5332.png)
+
+Enable
+![image](https://user-images.githubusercontent.com/99403641/159755714-9b617bd5-9304-4524-82ff-b6a243693acf.png)
 
 ### Two counters
 
